@@ -1,0 +1,1 @@
+docker build --build-arg ROOT_PASSWORD=password -t ssh_container:dev .
