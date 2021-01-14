@@ -78,7 +78,3 @@ EXPOSE 8080 22
 # use supervisor
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]
-
-# COPY startup.sh /startup.sh
-# RUN chmod 744 /startup.sh
-# CMD ["/startup.sh"]
