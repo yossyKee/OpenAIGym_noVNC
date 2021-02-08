@@ -6,7 +6,7 @@ workspace=/home/yk/workspace
 vnc_port=6081  
 ssh_port=2222
 
-docker run -itd  --rm\
+docker run -itd  --rm \
 --name $container_name \
 -v $workspace:/home/user/workspace/ \
 -p $vnc_port:8080 \
